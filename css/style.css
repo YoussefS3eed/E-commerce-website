@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color: #017dbf;
+}
+
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+.navbar {
+  background-color: var(--main-color) !important;
+}
+
+.mainCarousel .carousel-indicators button {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  transition: 0.5s ease all;
+}
+.mainCarousel .carousel-indicators button:hover {
+  background-color: #0e6492;
+}
+
+.mainCarousel .carousel-item img {
+  height: 100vh;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.mainCarousel .carousel-caption {
+  background-color: rgb(151, 194, 224, 0.4);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  bottom: 4.2rem;
+  transition: 0.5s ease all;
+}
+
+.mainCarousel .carousel-caption:hover {
+  background-color: rgb(48, 97, 232, 0.4);
+}
+
+.mainCarousel .carousel-caption h2 {
+  font-size: 2.25rem;
+  margin-bottom: 0.8rem;
+}
+
+.mainCarousel .carousel-caption p {
+  font-size: 1.2rem;
+}
+
+.mainCarousel .my-icon {
+  color: var(--main-color);
+  font-size: 30px;
+}
+
+/* offcanvas */
+@media (max-width: 575.9px) {
+  .offcanvas.offcanvas-start {
+    width: 200px !important;
+  }
+}
+@media (max-width: 767.9px) {
+  .offcanvas.offcanvas-start {
+    width: 250px;
+  }
+}
+.offcanvas .offcanvas-body .box-offcanvas {
+  padding-top: 1.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.offcanvas .offcanvas-body .box-offcanvas:not(:last-child) {
+  padding-bottom: 1.5rem;
+}
+.offcanvas .offcanvas-body .box-offcanvas img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+.offcanvas .offcanvas-body .box-offcanvas img:hover {
+  transform: skew(-6deg);
+}
+.offcanvas .offcanvas-body .box-offcanvas p {
+  margin: 0;
+}
+
+.offcanvas .offcanvas-body .box-offcanvas span {
+  color: var(--main-color);
+  font-weight: bold;
+}
+.offcanvas .offcanvas-body h5 {
+  border-bottom: 1px solid #ccc;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+.offcanvas .offcanvas-body button {
+  margin-top: 0.8rem;
+  margin-bottom: 0.2rem;
+  transition: 0.5s ease all;
+}
+.offcanvas .offcanvas-body button:hover {
+  background-color: crimson;
+  border-radius: 1.5rem;
+}
+
+/* Products */
+.products .card {
+  overflow: hidden;
+}
+.products .card img {
+  width: 100%;
+  height: 18rem;
+  cursor: pointer;
+}
+.products .card img:hover {
+  transform: scale(1.1);
+  transition: 0.8s ease all;
+}
+.products .card .star {
+  color: var(--main-color);
+  display: inline-block;
+}
+.products .card .star:hover {
+  color: crimson;
+  cursor: pointer;
+  transition: 0.8s ease all;
+}
+
+/* Model */
+.modal img {
+  height: 15rem;
+}
+
+/* contact-us */
+.contact-us {
+  background-image: url("../imgs/contact-us.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 70vh;
+}
+.contact-us .contact-group {
+  margin-top: 2.1rem;
+  height: 2.7rem;
+}
+.contact-us input {
+  border-radius: 0 !important;
+}
+.contact-us input:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+.contact-us button {
+  width: 9rem;
+  border-radius: 10px 0 0 10px;
+}
+.contact-us button:hover {
+  border-radius: 10px 0 0 10px;
+}
+
+/* Bestselling */
+.bestselling img {
+  height: 6rem;
+}
+.bestselling img:hover {
+  transform: translateY(-3px) scale(1.1);
+  transition: 0.8s ease all;
+}
+
+/* Contract */
+.contract .accordion .accordion-button {
+  display: block;
+  text-align: center;
+  background-color: var(--main-color);
+  color: white;
+}
+.contract .accordion .accordion-button::after {
+  display: none;
+}
+.contract .accordion .accordion-button:focus {
+  box-shadow: none;
+}
+.contract .accordion .accordion-body {
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  background-color: var(--main-color);
+}
+/* More */
+.btn-dark {
+  transition: 0.5s ease all;
+}
+.btn-dark:hover {
+  background-color: crimson;
+  border-radius: 1.5rem;
+}
+.section-header {
+  border-bottom: 5px solid crimson;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+.blue {
+  color: var(--main-color);
+}
+.blue-crimson {
+  background-color: var(--main-color);
+  cursor: pointer;
+  border: none;
+}
+.blue-crimson:hover {
+  background-color: crimson;
+  border-radius: 1.5rem;
+  transition: 0.7s ease all;
+}
+
+/* Scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px #ccc;
+  border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
