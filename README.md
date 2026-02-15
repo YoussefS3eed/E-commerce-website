@@ -1,7 +1,6 @@
 # E‑Commerce Template – Bootstrap 5
 
-This is a practice project built following **Elzero Web School**'s tutorial series:  
-[Bootstrap 5 Design 02 – E‑Commerce Website](https://www.youtube.com/playlist?list=PLDoPjvoNmBAyvm7f--dc6XqkpfDcen_vQ)
+This is a practice project Bootstrap 5 Design 02 – E‑Commerce Website
 
 A modern, fully responsive **RTL** e‑commerce website template with a clean and professional design.
 
@@ -59,7 +58,6 @@ No build process or server required – it's pure static HTML/CSS/JS.
 
 ## 📝 Credits
 
-- Tutorial by [Elzero Web School](https://elzero.org/)
 - Icons by [Font Awesome](https://fontawesome.com/)
 - Animations by [Lottie](https://airbnb.design/lottie/)
 - Framework by [Bootstrap](https://getbootstrap.com/)
